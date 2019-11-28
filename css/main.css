@@ -13,3 +13,64 @@ html {
   border-left: 0;
   border-right: 0;
 }
+
+.nav:hover {
+  border-color: #000;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #005e76;
+}
+
+.text-section {
+  border-color: #e2e2e2;
+  border-style: solid;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  border-color: #8bc9d9;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.btn-ghost:hover {
+  background-color: #8bc9d9;
+  border-color: #0084a6;
+}
+
+.p-1 {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+footer {
+  border-color: #e2e2e2;
+  border-style: solid;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.blue {
+  color: #005e76;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav-2 {
+    text-align: right;
+    margin-bottom: 0;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+}
