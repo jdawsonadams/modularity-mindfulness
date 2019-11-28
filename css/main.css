@@ -1,7 +1,15 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  color: #000;
 }
 
-.font-jp {
-  font-family: "Noto Sans Japanese", sans-serif;
+.nav {
+  text-decoration: none;
+  color: #005e76;
+  border-style: solid;
+  border-color: #8bc9d9;
+  border-width: 2px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
